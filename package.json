@@ -389,6 +389,7 @@
     "vscode:prepublish": "npm run cleanbuild && npm run pack",
     "pack": "webpack --mode production",
     "pack:dev": "webpack --mode development",
+    "package": "vsce package",
     "deploy": "vsce publish",
     "vsce": "vsce",
     "cleanbuild": "node ./scripts/clean-build.js",
